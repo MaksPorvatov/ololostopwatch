@@ -1,0 +1,31 @@
+.numbers-block {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.numbers {
+  font-size: 24px;
+}
+
+.buttons-block {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buttons-block button {
+  padding: 5px 22px;
+  outline: none;
+  border: 1px solid #333;
+  color: #333;
+  cursor: pointer;
+  transition: 250ms;
+}
+
+.buttons-block button:hover {
+  color: #fff;
+  background: #333;
+}
